@@ -1,0 +1,537 @@
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+WARNING:splitio.client.input_validator:get_treatment: you passed "sample_feature" that does not exist in this environment, please double check what Splits exist in the web console.
+WARNING:splitio.client.input_validator:get_treatment_with_config: you passed "sample_feature" that does not exist in this environment, please double check what Splits exist in the web console.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+WARNING:splitio.client.input_validator:get_treatment: you passed "TestSlit" that does not exist in this environment, please double check what Splits exist in the web console.
+WARNING:splitio.client.input_validator:get_treatment_with_config: you passed "TestSlit" that does not exist in this environment, please double check what Splits exist in the web console.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+WARNING:splitio.client.input_validator:track: Traffic Type account does not have any corresponding Splits in this environment, make sure you're tracking your events to a valid traffic type defined in the Split console.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+DEBUG:urllib3.connectionpool:https://auth.split.io:443 "GET /api/v2/auth HTTP/1.1" 200 693
+DEBUG:splitio.push.manager:auth token fetched. connecting to streaming.
+DEBUG:splitio.push.sse:skipping sse comment
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event=None, retry=None, data=None)
+INFO:splitio.push.manager:sse initial event received. enabling
+DEBUG:splitio.push.manager:connected to streaming, scheduling next refresh
+DEBUG:splitio.sync.synchronizer:Stopping periodic fetching
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event='message', retry=None, data='{"id":"Ss0IWPEAgV:0:0","timestamp":1669681408677,"encoding":"json","channel":"[?occupancy=metrics.publishers]control_pri","data":"{\\"metrics\\":{\\"publishers\\":2}}","name":"[meta]occupancy"}')
+DEBUG:splitio.push.manager:handling occupancy event: Occupancy - channel=control_pri, publishers=2
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event='message', retry=None, data='{"id":"mCYJVkLzuL:0:0","timestamp":1669681408677,"encoding":"json","channel":"[?occupancy=metrics.publishers]control_sec","data":"{\\"metrics\\":{\\"publishers\\":2}}","name":"[meta]occupancy"}')
+DEBUG:splitio.push.manager:handling occupancy event: Occupancy - channel=control_sec, publishers=2
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id='6f8_f2z8QBIWLZ@1669681408677-0', event=None, retry=None, data=None)
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1668208956149 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.push.splitworker:Starting Split Worker
+DEBUG:splitio.push.segmentworker:Starting Segment Worker
+INFO:splitio.sync.manager:streaming up and running. disabling periodic fetching.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+DEBUG:splitio.push.splitworker:Stopping Split Worker
+DEBUG:splitio.push.segmentworker:Stopping Segment Worker
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 533
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1669925800934 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+WARNING:splitio.client.input_validator:get_treatment: you passed "TestSlit" that does not exist in this environment, please double check what Splits exist in the web console.
+WARNING:splitio.client.input_validator:track: Traffic Type account does not have any corresponding Splits in this environment, make sure you're tracking your events to a valid traffic type defined in the Split console.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+DEBUG:urllib3.connectionpool:https://auth.split.io:443 "GET /api/v2/auth HTTP/1.1" 200 693
+DEBUG:splitio.push.manager:auth token fetched. connecting to streaming.
+DEBUG:splitio.push.sse:skipping sse comment
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event=None, retry=None, data=None)
+INFO:splitio.push.manager:sse initial event received. enabling
+DEBUG:splitio.push.manager:connected to streaming, scheduling next refresh
+DEBUG:splitio.sync.synchronizer:Stopping periodic fetching
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event='message', retry=None, data='{"id":"_QKuIOXc8O:0:0","timestamp":1670367299432,"encoding":"json","channel":"[?occupancy=metrics.publishers]control_pri","data":"{\\"metrics\\":{\\"publishers\\":2}}","name":"[meta]occupancy"}')
+DEBUG:splitio.push.manager:handling occupancy event: Occupancy - channel=control_pri, publishers=2
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id=None, event='message', retry=None, data='{"id":"3IsZtxARh4:0:0","timestamp":1670367299433,"encoding":"json","channel":"[?occupancy=metrics.publishers]control_sec","data":"{\\"metrics\\":{\\"publishers\\":2}}","name":"[meta]occupancy"}')
+DEBUG:splitio.push.manager:handling occupancy event: Occupancy - channel=control_sec, publishers=2
+DEBUG:splitio.push.sse:dispatching event: SSEEvent(event_id='6f8eBeirABIpR5@1670367299433-0', event=None, retry=None, data=None)
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1669925800934 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.push.splitworker:Starting Split Worker
+DEBUG:splitio.push.segmentworker:Starting Segment Worker
+INFO:splitio.sync.manager:streaming up and running. disabling periodic fetching.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+DEBUG:urllib3.connectionpool:https://events.split.io:443 "POST /api/events/bulk HTTP/1.1" 400 82
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 73, in flush_events
+    raise APIException(response.body, response.status_code)
+splitio.api.APIException: Invalid Traffic Type Names for org 26226f70-5183-11ed-ad41-b209467b75a1 : account
+
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): events.split.io:443
+ERROR:splitio.api.events:Error posting events because an exception was raised by the HTTPClient
+DEBUG:splitio.api.events:Error: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='events.split.io', port=443): Read timed out. (read timeout=1.5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/client.py", line 139, in post
+    response = requests.post(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='events.split.io', port=443): Read timed out. (read timeout=1.5)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 65, in flush_events
+    response = self._client.post(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/client.py", line 148, in post
+    raise HttpClientException('requests library is throwing exceptions') from exc
+splitio.api.client.HttpClientException: requests library is throwing exceptions
+ERROR:splitio.sync.event:Exception raised while reporting events
+DEBUG:splitio.sync.event:Exception information: 
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connection.py", line 414, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:980: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 389, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='events.split.io', port=443): Read timed out. (read timeout=1.5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/client.py", line 139, in post
+    response = requests.post(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='events.split.io', port=443): Read timed out. (read timeout=1.5)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 65, in flush_events
+    response = self._client.post(
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/client.py", line 148, in post
+    raise HttpClientException('requests library is throwing exceptions') from exc
+splitio.api.client.HttpClientException: requests library is throwing exceptions
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/sync/event.py", line 63, in synchronize_events
+    self._api.flush_events(to_send)
+  File "/home/nightfury/.local/lib/python3.10/site-packages/splitio/api/events.py", line 77, in flush_events
+    raise APIException('Events not flushed properly.') from exc
+splitio.api.APIException: Events not flushed properly.
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+DEBUG:splitio.push.splitworker:Stopping Split Worker
+DEBUG:splitio.push.segmentworker:Stopping Segment Worker
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
+WARNING:splitio.client.config:You passed an invalid impressionsMode, impressionsMode should be one of the following values: `debug`, `none` or `optimized`. Defaulting to `optimized` mode.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/segmentChanges/__SOME_INVALID_SEGMENT__?since=-1 HTTP/1.1" 404 173
+DEBUG:splitio.sync.synchronizer:Starting splits synchronization
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=-1 HTTP/1.1" 200 533
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sdk.split.io:443
+DEBUG:urllib3.connectionpool:https://sdk.split.io:443 "GET /api/splitChanges?since=1669925800934 HTTP/1.1" 200 63
+DEBUG:splitio.sync.split:Refresh completed in 1 attempts.
+DEBUG:splitio.sync.synchronizer:Starting segments synchronization
+DEBUG:splitio.tasks.util.workerpool:waiting for all messages to be processed.
+DEBUG:splitio.tasks.util.workerpool:all messages processed.
+DEBUG:splitio.sync.synchronizer:Starting periodic data recording
+WARNING:splitio.client.input_validator:get_treatment: you passed "TestSlit" that does not exist in this environment, please double check what Splits exist in the web console.
+WARNING:splitio.client.input_validator:track: Traffic Type account does not have any corresponding Splits in this environment, make sure you're tracking your events to a valid traffic type defined in the Split console.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auth.split.io:443
+DEBUG:urllib3.connectionpool:https://auth.split.io:443 "GET /api/v2/auth HTTP/1.1" 200 693
+DEBUG:splitio.push.manager:auth token fetched. connecting to streaming.
+INFO:splitio.client.factory:Factory destroy called, stopping tasks.
+INFO:splitio.sync.manager:Stopping manager tasks
+WARNING:splitio.push.manager:Push manager does not have an open SSE connection. Ignoring
+DEBUG:splitio.sync.synchronizer:Shutting down tasks.
