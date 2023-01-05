@@ -1,0 +1,16 @@
+PODS:
+  - Split (2.5.2)
+
+DEPENDENCIES:
+  - Split (~> 2.5.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Split
+
+SPEC CHECKSUMS:
+  Split: 956009311c6f07eb7167ff24a1a2c6550a4a19e9
+
+PODFILE CHECKSUM: 250318cf077033d6aa92ecd5ff818b04006dcf50
+
+COCOAPODS: 1.7.4
