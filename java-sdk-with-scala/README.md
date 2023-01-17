@@ -10,7 +10,7 @@ Java 10.0.1
 
 ## Getting started
 
-- Add Split Java SDK to SBT project
+- Add Split Java SDK dependencies to SBT project
 
 ```
 libraryDependencies += "io.split.client" % "java-client" % "3.2.4"
