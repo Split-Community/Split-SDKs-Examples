@@ -1,0 +1,6 @@
+- direct_to_pdp:
+    treatment: "on"
+- direct_to_pdp:
+    treatment: "off"
+    keys: "key"
+    config: "{\"desc\" : \"this applies only to ON treatment\"}"
