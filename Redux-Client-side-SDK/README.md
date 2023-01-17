@@ -38,9 +38,8 @@ http://localhost:3000
 ```
 
 - The app will calculate treatment for the default Split and show it in the browser page, the page allow typing any other Split Name and the tool will calculate the treatment and show it subsequently, as shown below for Splits sample_feature and clients
-Screen_Shot_2020-05-13_at_5.51.13_PM.png
 
- https://help.split.io/hc/article_attachments/360057271651/Screen_Shot_2020-05-13_at_5.51.13_PM.png
+ ![](https://help.split.io/hc/article_attachments/360057271651/Screen_Shot_2020-05-13_at_5.51.13_PM.png)
 
 - Since we are using the SDK in client mode, the user id used in getTreatment call has to be supplied when the SDK factory is initialized, the line is shown below in file `./src/store.js`
 
