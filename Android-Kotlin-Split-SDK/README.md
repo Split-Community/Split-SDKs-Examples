@@ -22,6 +22,3 @@ Android SDK 28 or later
 ```
 
 3. When the app starts, it will initialize Split factory object, getTreatemnt is called to calculate the treatment when the SDK_READY event is fired.
-
-
-https://drive.google.com/file/d/1ROwSLrSIZaNLmSsQVfRS_sjlwPxoW-jC/view
