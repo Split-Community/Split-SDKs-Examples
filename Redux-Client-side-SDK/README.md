@@ -11,7 +11,7 @@ redux-thunk 2.3.0 or later
 
 ## Getting started
 
-- Download the attached zip file and unzip it, cd to the root folder and run the npm command below to download the dependencies:
+- Clone this directory to your local environment and cd to the root folder and then run the following command to install all the dependencies:
 
 ``` nodejs
 npm install
