@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Split/Split/Engine/Engine.swift"
+            timestampString = "565130094.125244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Split.Engine.getTreatment(matchingKey: Swift.Optional&lt;Swift.String&gt;, bucketingKey: Swift.Optional&lt;Swift.String&gt;, split: Swift.Optional&lt;Split.Split&gt;, attributes: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Split"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilalal-shahwany/Desktop/Projects/XCode/Split/SplitSDK/Pods/Split/Split/Engine/Engine.swift"
+                  timestampString = "565127162.371699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "4604">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Split.Engine.getTreatment(matchingKey: Swift.Optional&lt;Swift.String&gt;, bucketingKey: Swift.Optional&lt;Swift.String&gt;, split: Swift.Optional&lt;Split.Split&gt;, attributes: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Split"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilalal-shahwany/Desktop/Projects/XCode/Split/SplitSDK/Pods/Split/Split/Engine/Engine.swift"
+                  timestampString = "565127162.3748159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "6217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

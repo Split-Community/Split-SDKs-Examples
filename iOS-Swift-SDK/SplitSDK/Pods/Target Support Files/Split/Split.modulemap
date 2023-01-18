@@ -1,0 +1,6 @@
+framework module Split {
+  umbrella header "Split-umbrella.h"
+
+  export *
+  module * { export * }
+}
