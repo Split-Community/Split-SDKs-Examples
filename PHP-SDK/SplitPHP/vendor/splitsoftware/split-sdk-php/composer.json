@@ -1,0 +1,46 @@
+{
+  "name": "splitsoftware/split-sdk-php",
+  "description": "Split SDK for PHP",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Split",
+      "homepage": "http://split.io"
+    },
+    {
+      "name": "Sebastian Arrubia",
+      "email": "sebastian@split.io"
+    }
+  ],
+
+  "bin": ["bin/splitio"],
+
+  "require": {
+    "php": ">=5.3.9",
+    "psr/log": "~1.0",
+    "predis/predis": "^1.0",
+    "rmccue/requests": "^1.6",
+    "symfony/yaml": "2.8"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "squizlabs/php_codesniffer": "2.*",
+    "fabpot/php-cs-fixer": "^1.11"
+  },
+  
+  "autoload": {
+    "psr-4": {
+      "SplitIO\\": "src/SplitIO/",
+      "SplitIO\\Component\\": "src/SplitIO/Component/"
+    },
+    "files": ["src/functions_include.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SplitIO\\Test\\": "tests/"
+    }
+  }
+}

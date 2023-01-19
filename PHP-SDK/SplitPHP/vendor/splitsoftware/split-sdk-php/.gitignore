@@ -1,0 +1,25 @@
+*.phar
+.idea
+*.sh
+*~
+ci
+composer.lock
+vendor
+poc.php
+release.php
+tmp/*
+phpunit.xml
+!bin/splitio.phar
+tests/coverage-report/*
+
+bin/splitio.ini
+php53test.php
+test.php
+.phpcd
+.vscode
+
+#vim backup files
+*.swp
+
+# phpenv
+.php-version

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "splitsoftware/split-sdk-php": "6.1.0"
+    }
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+$msg = <<<MSG
+
+This synchronizer version has been deprecated.
+Please install new Split-sync service which is compatible with newer SDK version.
+
+For further information refer to https://docs.split.io/docs/split-synchronizer
+
+MSG;
+
+echo $msg;
+
+

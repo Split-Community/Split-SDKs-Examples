@@ -1,0 +1,24 @@
+language: php
+
+env:
+  global:
+    - COMPOSER_DISABLE_XDEBUG_WARN=1
+
+matrix:
+  include:
+    - dist: precise
+      php: '5.3'
+    - dist: xenial
+      php: '7.2'
+
+services:
+  - redis-server
+
+install:
+  - composer install --prefer-source --no-interaction
+  - composer update
+  - composer dumpautoload
+
+script:
+  - vendor/bin/phpcs --ignore=functions.php --standard=PSR2 src/
+  - vendor/bin/phpunit -c phpunit.xml.dist -v --testsuite integration
