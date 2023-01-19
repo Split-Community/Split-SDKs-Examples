@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{ADBB7554-FC92-477A-8F0A-D25AD992D66A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MySplit/Program.cs">
+    <Files>
+      <File FileName="MySplit/Program.cs" Line="4" Column="30" />
+      <File FileName="MySplit/SplitSDK.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MySplit" expanded="True">
+            <Node name="MySplit" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MySplit PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,11 @@
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Release/netcoreapp2.1/MySplit.deps.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Release/netcoreapp2.1/MySplit.runtimeconfig.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Release/netcoreapp2.1/MySplit.runtimeconfig.dev.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Release/netcoreapp2.1/MySplit.dll
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Release/netcoreapp2.1/MySplit.pdb
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.csproj.CoreCompileInputs.cache
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.AssemblyInfoInputs.cache
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.AssemblyInfo.cs
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.dll
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.pdb
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Release/netcoreapp2.1/MySplit.csprojResolveAssemblyReference.cache

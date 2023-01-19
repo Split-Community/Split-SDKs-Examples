@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/MySplit.csproj": {}
+  },
+  "projects": {
+    "/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/MySplit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/MySplit.csproj",
+        "projectName": "MySplit",
+        "projectPath": "/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/MySplit.csproj",
+        "packagesPath": "/Users/bilalal-shahwany/.nuget/packages/",
+        "outputPath": "/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bilalal-shahwany/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Common.Logging.NLog41": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.8, )"
+            },
+            "Splitio-net-core": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

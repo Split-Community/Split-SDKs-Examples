@@ -1,0 +1,10 @@
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Debug/netcoreapp2.1/MySplit.AssemblyInfoInputs.cache
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Debug/netcoreapp2.1/MySplit.AssemblyInfo.cs
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Debug/netcoreapp2.1/MySplit.csprojAssemblyReference.cache
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Debug/netcoreapp2.1/MySplit.deps.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Debug/netcoreapp2.1/MySplit.runtimeconfig.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Debug/netcoreapp2.1/MySplit.runtimeconfig.dev.json
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Debug/netcoreapp2.1/MySplit.dll
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/bin/Debug/netcoreapp2.1/MySplit.pdb
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Debug/netcoreapp2.1/MySplit.dll
+/Users/bilalal-shahwany/Desktop/Projects/NET/MySplit/MySplit/obj/Debug/netcoreapp2.1/MySplit.pdb
