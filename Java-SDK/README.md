@@ -25,7 +25,3 @@ SplitSDK_Java/src/sample/MySplit.java
 ```
 SplitSDK_Java/src/sample/SplitSDL_Sample.java 
 ```
-
-
-
-https://drive.google.com/a/split.io/file/d/1Ila_ldr6NCHzZsctUW9lp22aENZsJvDa/view?usp=sharing
