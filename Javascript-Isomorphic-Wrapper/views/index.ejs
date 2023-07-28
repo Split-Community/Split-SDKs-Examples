@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="//cdn.split.io/sdk/split-10.23.0.min.js"></script>
+    <script type="module">
+      import { SplitWrapper } from './javascripts/split_wrapper.js';
+      const splitSdk = new SplitWrapper(splitio, "<%= clientSDKkey %>", false);
+
+      splitSdk.getReady('<%= user %>', 'user').then(() => {
+        let clientEval = document.getElementById('clientEval')
+        let flag = '<%= flag %>';
+        let treatment = splitSdk.getTreatment(flag, false);
+        clientEval.innerHTML = `This shows a client side evaluation for <strong>${flag} is ${treatment} </strong>`
+      })
+    </script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Check out the code in the split_wrapper.js file included in both the public/javascripts directory and in the local-lib/split-wrapper</p>
+     <p> In both cases - we are using the same wrapper - one is just running server side, and the other client side!</p>
+      <p>It is good practice to make sure to not expose the server side SDK keys - so that should exist outside of the wrapper code and be passed in.  </p>
+    <p>This shows that the server side evaluation for<strong> <%= flag %> is <%= treatment %></strong></p>
+    <p id="clientEval"></p>
+  </body>
+</html>
